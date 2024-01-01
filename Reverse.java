@@ -15,7 +15,7 @@ public class Reverse {
 		/// if the length is an even number, it returns the character at index (len \ 2)
 		/// if the length is an odd number, it returns the character at rounded up index (len + 1 \ 2) 
 		if (input.length() % 2 == 0) {
-			int idx = (input.length() ) / 2; 
+			int idx = ( (input.length() ) / 2 ) - 1; 
 			System.out.println("The middle character is " + input.charAt(idx));
 			} else {
 			int idx = (input.length() ) / 2; 
