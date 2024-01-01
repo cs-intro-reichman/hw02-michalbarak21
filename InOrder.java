@@ -11,7 +11,7 @@ public class InOrder {
 		do { 
 			int new_num = (int) (Math.random() * 10);
 			System.out.print(num + " ");
-			if (num - new_num == 1) {
+			if (num - new_num >= 1) {
 				isDecreasing = true;
 			}
 			num = new_num;
