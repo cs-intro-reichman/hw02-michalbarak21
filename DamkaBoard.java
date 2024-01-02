@@ -6,9 +6,9 @@ public class DamkaBoard {
 		/// Gets input from user
 		int num = Integer.parseInt(args[0]);
 		/// Creates a line in the damka board based on the number given by user
-		String base = ( " *"); 
+		String base = (" *"); 
 		String line_even = (" *") + base.repeat(num - 1); 
-		String line_odd = ("*" + base.repeat(num - 1));
+		String line_odd = ("*") + base.repeat(num - 1) + (" ");
 		for (int i = 1; i <= num; i++) {
 			/// For each row checks if it's even or odd. 
 			/// odd --> prints line as is; even --> adds space infront of the line to create indentation  
