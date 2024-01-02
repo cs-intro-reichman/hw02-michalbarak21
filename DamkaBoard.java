@@ -14,7 +14,7 @@ public class DamkaBoard {
 			if ( i % 2 == 1) {
 				System.out.println(line);
 			} else { 
-				System.err.println(" " + line);
+				System.out.println(" " + line);
 			}
 		}
 	}
