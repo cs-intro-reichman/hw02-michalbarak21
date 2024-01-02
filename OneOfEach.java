@@ -23,6 +23,6 @@ public class OneOfEach {
 			count++;
 		}
 		System.out.println();
-		System.out.print("You made it... and you now have " + count + " children.");
+		System.out.println("You made it... and you now have " + count + " children.");
 	}
 }
